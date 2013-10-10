@@ -7,6 +7,7 @@
     co = checkout 
     ds = diff --staged
     st = status -sb
+    br = branch -a
     ls = log --pretty=format:'%C(yellow)%h %C(blue)%ad %C(red)%d %C(reset)%s %C(green) [%cn]' --decorate --date=short
     undo = reset --soft HEAD^
     type = cat-file -t
